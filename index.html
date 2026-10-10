@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cronoteka — Política de privacidad / Privacy Policy</title>
+<style>
+  :root { color-scheme: light; }
+  body {
+    margin: 0 auto; max-width: 780px; padding: 32px 20px 80px;
+    font: 16px/1.6 "Segoe UI", system-ui, -apple-system, sans-serif;
+    color: #1e1b16; background: #ffffff;
+  }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 34px 0 8px; border-bottom: 1px solid #e5e0d6; padding-bottom: 6px; }
+  h3 { font-size: 17px; margin: 22px 0 6px; }
+  .fecha { color: #6c6558; margin: 0 0 8px; }
+  .idioma { margin: 24px 0 40px; padding: 12px 16px; background: #f5f3ef; border-radius: 8px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  hr { border: none; border-top: 2px solid #e5e0d6; margin: 56px 0 40px; }
+  code { background: #f0ece4; padding: 1px 5px; border-radius: 4px; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<h1>Política de privacidad de Cronoteka</h1>
+<p class="fecha">Última actualización: 10 de octubre de 2026</p>
+<p class="idioma"><a href="#english">English version below</a></p>
+
+<p>
+  Cronoteka es una aplicación para Android que permite llevar un documento cronológico
+  con grabaciones de voz, notas escritas, fotografías, vídeos y dibujos, y exportarlo a
+  Word, Excel y PowerPoint.
+</p>
+
+<h2>Resumen</h2>
+<p>
+  <strong>Cronoteka no recoge, no transmite y no comparte ningún dato personal.</strong>
+  Todo lo que se crea en la aplicación se queda guardado en el propio teléfono. No hay
+  cuentas de usuario, no hay servidores propios, no hay publicidad, no hay analítica y no
+  hay herramientas de seguimiento de terceros. Todo el trabajo —grabar, transcribir,
+  fotografiar y exportar— funciona sin conexión a internet. La aplicación sólo se conecta
+  para una cosa: preguntar a Google Play si su suscripción está activa.
+</p>
+
+<h2>Qué información maneja la aplicación</h2>
+<p>
+  La aplicación guarda, únicamente en el almacenamiento privado del teléfono, el contenido
+  que usted crea:
+</p>
+<ul>
+  <li>Grabaciones de voz y su transcripción.</li>
+  <li>Notas de texto.</li>
+  <li>Fotografías, vídeos y dibujos.</li>
+  <li>Las coordenadas del lugar donde se tomó una fotografía o un vídeo, cuando están
+      disponibles.</li>
+  <li>Sus preferencias: idioma de la aplicación e idioma de transcripción.</li>
+</ul>
+<p>
+  Nada de esto se envía a ninguna parte. El desarrollador no tiene acceso a ese contenido
+  en ningún momento.
+</p>
+
+<h2>Permisos y para qué se usan</h2>
+
+<h3>Micrófono (<code>RECORD_AUDIO</code>)</h3>
+<p>
+  Para grabar audio cuando usted pulsa el botón de grabar. El audio se guarda como archivo
+  en el teléfono. La transcripción se hace <strong>dentro del propio teléfono</strong>, con
+  un motor de reconocimiento de voz incluido en la aplicación; la voz no se envía a ningún
+  servicio externo.
+</p>
+
+<h3>Servicio en primer plano con micrófono (<code>FOREGROUND_SERVICE_MICROPHONE</code>)</h3>
+<p>
+  Para que una grabación iniciada por usted no se corte si cambia de aplicación o apaga la
+  pantalla. Mientras dura, se muestra una notificación permanente. La grabación sólo
+  empieza cuando usted la inicia y termina cuando usted la detiene.
+</p>
+
+<h3>Cámara (<code>CAMERA</code>)</h3>
+<p>
+  Para tomar fotografías y grabar vídeos desde la aplicación cuando usted lo pide. Los
+  archivos se guardan en el teléfono.
+</p>
+
+<h3>Ubicación (<code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code>)</h3>
+<p>
+  Para anotar el lugar donde se tomó una fotografía o un vídeo hecho desde la aplicación,
+  y escribir esas coordenadas junto al elemento en el documento. La posición se consulta
+  <strong>únicamente en el momento de tomar la foto o el vídeo</strong>, con la aplicación
+  abierta. No hay seguimiento, no se consulta en segundo plano, no se guarda ningún
+  historial de recorridos y la ubicación no se envía a ninguna parte: se queda en el
+  documento y en los datos del archivo de imagen, dentro de su teléfono.
+  Si usted no concede este permiso, la aplicación funciona igual y sencillamente no anota
+  coordenadas.
+</p>
+<p>
+  Hay una excepción que conviene que conozca: si usted <strong>toca</strong> unas
+  coordenadas, la aplicación abre su programa de mapas con ese punto, y entonces esas
+  coordenadas se las facilita usted a ese programa. Lo mismo ocurre con los enlaces de
+  mapa que se escriben dentro de los documentos exportados, si alguien los pulsa. Sucede
+  sólo cuando usted lo pide.
+</p>
+
+<h3>Ubicación de archivos multimedia (<code>ACCESS_MEDIA_LOCATION</code>)</h3>
+<p>
+  Para poder leer las coordenadas que ya vienen grabadas dentro de una fotografía o un
+  vídeo que usted elige de su galería. Sólo se leen los archivos que usted selecciona uno
+  a uno.
+</p>
+
+<h3>Notificaciones (<code>POST_NOTIFICATIONS</code>)</h3>
+<p>
+  Para mostrar el aviso de «grabación en curso» mientras se graba.
+</p>
+
+<h3>Conexión a internet (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>)</h3>
+<p>
+  Únicamente para la suscripción. La aplicación pregunta a Google Play si usted tiene una
+  suscripción activa y, si decide suscribirse, abre la pantalla de pago de Google Play. El
+  cobro, las renovaciones, las cancelaciones y los reembolsos los gestiona Google; la
+  aplicación no ve ni guarda su tarjeta ni ningún dato de pago, y no envía a Google Play
+  nada de lo que usted graba o escribe. Ese tratamiento se rige por la
+  <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>.
+</p>
+
+<h2>Suscripción</h2>
+<p>
+  La aplicación permite crear dos documentos sin pagar; para crear más hace falta una
+  suscripción. Los documentos que usted ya haya creado se siguen abriendo, editando y
+  exportando aunque la suscripción termine. La suscripción se gestiona y se cancela desde
+  Google Play, no desde la aplicación.
+</p>
+
+<h2>Exportar y compartir</h2>
+<p>
+  Cuando usted exporta un documento, la aplicación escribe el archivo de Word, Excel o
+  PowerPoint en la carpeta que usted elige en su propio teléfono. Cuando usted usa la
+  opción de compartir, es usted quien elige la aplicación de destino (correo, mensajería,
+  almacenamiento en la nube); a partir de ese momento el archivo se rige por la política
+  de privacidad de esa otra aplicación. Cronoteka no envía nada por su cuenta.
+</p>
+
+<h2>Copias de seguridad</h2>
+<p>
+  La aplicación <strong>no se incluye en la copia de seguridad de Android</strong>: sus
+  documentos no se suben a Google Drive ni a ninguna otra nube, y tampoco pasan a otro
+  teléfono en una transferencia de dispositivo a dispositivo. Es una decisión deliberada,
+  porque una bitácora de obra puede contener información de un cliente y no tiene por qué
+  salir del teléfono sin que usted lo pida.
+</p>
+<p>
+  La consecuencia es importante: <strong>si cambia de teléfono, desinstala la aplicación o
+  borra sus datos, los documentos se pierden.</strong> Para conservarlos, expórtelos a
+  Word, Excel o PowerPoint, o compártalos donde usted decida.
+</p>
+
+<h2>Menores</h2>
+<p>
+  Cronoteka es una herramienta de trabajo dirigida a personas mayores de edad, no está
+  dirigida a menores y no recoge datos de ninguna persona.
+</p>
+
+<h2>Borrado de datos</h2>
+<p>
+  Puede eliminar cualquier documento desde la propia aplicación, lo que borra también sus
+  grabaciones, fotos, vídeos y dibujos. Al desinstalar la aplicación se elimina todo su
+  contenido del teléfono. Como no existe ninguna copia en servidores, no hay nada más que
+  borrar ni ninguna solicitud que enviar.
+</p>
+
+<h2>Cambios en esta política</h2>
+<p>
+  Si en el futuro cambia el funcionamiento de la aplicación, esta política se actualizará
+  en esta misma dirección, indicando la fecha del cambio.
+</p>
+
+<h2>Contacto</h2>
+<p>
+  Para cualquier duda sobre esta política o sobre la aplicación:
+  <a href="mailto:spilmit@gmail.com">spilmit@gmail.com</a>
+</p>
+
+<hr>
+
+<h1 id="english">Cronoteka Privacy Policy</h1>
+<p class="fecha">Last updated: 10 October 2026</p>
+
+<p>
+  Cronoteka is an Android app for keeping a chronological record made of voice recordings,
+  written notes, photos, videos and drawings, and exporting it to Word, Excel and
+  PowerPoint.
+</p>
+
+<h2>Summary</h2>
+<p>
+  <strong>Cronoteka does not collect, transmit or share any personal data.</strong>
+  Everything you create stays on your own phone. There are no user accounts, no servers of
+  ours, no advertising, no analytics and no third-party tracking. All the actual work —
+  recording, transcribing, taking photos and exporting — works offline. The app connects
+  for one thing only: to ask Google Play whether your subscription is active.
+</p>
+
+<h2>What the app handles</h2>
+<p>The app stores the following on your phone's private storage only:</p>
+<ul>
+  <li>Voice recordings and their transcripts.</li>
+  <li>Text notes.</li>
+  <li>Photos, videos and drawings.</li>
+  <li>The coordinates of where a photo or video was taken, when available.</li>
+  <li>Your preferences: app language and transcription language.</li>
+</ul>
+<p>None of it is sent anywhere. The developer never has access to it.</p>
+
+<h2>Permissions and why they are used</h2>
+
+<h3>Microphone (<code>RECORD_AUDIO</code>)</h3>
+<p>
+  To record audio when you press record. The audio is saved as a file on the phone.
+  Transcription runs <strong>on the phone itself</strong>, using a speech engine bundled
+  with the app; your voice is never sent to any external service.
+</p>
+
+<h3>Microphone foreground service (<code>FOREGROUND_SERVICE_MICROPHONE</code>)</h3>
+<p>
+  So that a recording you started is not cut off when you switch apps or turn the screen
+  off. A permanent notification is shown while it lasts. Recording only starts when you
+  start it and ends when you stop it.
+</p>
+
+<h3>Camera (<code>CAMERA</code>)</h3>
+<p>To take photos and record videos from the app when you ask for it.</p>
+
+<h3>Location (<code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code>)</h3>
+<p>
+  To note where a photo or video taken from the app was made, and write those coordinates
+  next to the item in the document. Location is read <strong>only at the moment you take
+  the photo or video</strong>, with the app open. There is no tracking, no background
+  location access, no location history, and the location is never sent anywhere: it stays
+  in the document and in the image file's own metadata, on your phone. If you deny this
+  permission the app works the same, simply without coordinates.
+</p>
+<p>
+  One exception worth knowing: if you <strong>tap</strong> a set of coordinates, the app
+  opens your maps program at that point, and you are then handing those coordinates to
+  that program. The same goes for the map links written inside exported documents, if
+  someone clicks them. It only happens when you ask for it.
+</p>
+
+<h3>Media location (<code>ACCESS_MEDIA_LOCATION</code>)</h3>
+<p>
+  To read the coordinates already stored inside a photo or video that you pick from your
+  gallery. Only the files you select individually are read.
+</p>
+
+<h3>Notifications (<code>POST_NOTIFICATIONS</code>)</h3>
+<p>To show the "recording in progress" notice while recording.</p>
+
+<h3>Internet access (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>)</h3>
+<p>
+  For the subscription only. The app asks Google Play whether you have an active
+  subscription and, if you choose to subscribe, opens Google Play's payment screen.
+  Billing, renewals, cancellations and refunds are handled by Google; the app never sees
+  or stores your card or any payment details, and it sends Google Play nothing of what you
+  record or write. That processing is governed by
+  <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+</p>
+
+<h2>Subscription</h2>
+<p>
+  The app lets you create two documents without paying; creating more requires a
+  subscription. Documents you have already created keep opening, editing and exporting
+  even after the subscription ends. The subscription is managed and cancelled in Google
+  Play, not in the app.
+</p>
+
+<h2>Exporting and sharing</h2>
+<p>
+  When you export a document, the app writes the Word, Excel or PowerPoint file to the
+  folder you choose on your own phone. When you use the share option, you choose the
+  destination app (email, messaging, cloud storage); from that point the file is governed
+  by that app's privacy policy. Cronoteka never sends anything on its own.
+</p>
+
+<h2>Backups</h2>
+<p>
+  The app is <strong>excluded from Android's backup</strong>: your documents are not
+  uploaded to Google Drive or any other cloud, and they are not carried over in a
+  device-to-device transfer either. This is deliberate — a site log can hold a client's
+  information, and it should not leave the phone unless you ask.
+</p>
+<p>
+  This has an important consequence: <strong>if you change phone, uninstall the app or
+  clear its data, the documents are gone.</strong> To keep them, export them to Word,
+  Excel or PowerPoint, or share them wherever you choose.
+</p>
+
+<h2>Children</h2>
+<p>Cronoteka is a work tool intended for adults. It is not directed at children and
+  collects no data from anyone.</p>
+
+<h2>Data deletion</h2>
+<p>
+  You can delete any document from within the app, which also deletes its recordings,
+  photos, videos and drawings. Uninstalling the app removes all of its content from the
+  phone. Since no copy exists on any server, there is nothing else to delete and no
+  request to send.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+  If the app's behaviour changes in the future, this policy will be updated at this same
+  address, with the date of the change.
+</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:spilmit@gmail.com">spilmit@gmail.com</a></p>
+
+</body>
+</html>
